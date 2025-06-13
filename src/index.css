@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  max-width: 90%;
+  transition: all 0.5s ease;
+}
+
+.mood-selector {
+  margin-bottom: 1.5rem;
+}
+
+.mood-selector button {
+  margin: 0 0.3rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.mood-selector button:hover {
+  background-color: #d0d0d0;
+}
+
+.mood-selector button.active {
+  background-color: #90caf9;
+  color: white;
+}
+
+.mood-avatar {
+  margin: 1rem 0;
+}
+
+.quote-box {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-top: 1px solid #ddd;
+}
